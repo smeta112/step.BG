@@ -4,7 +4,7 @@
     padding: 0;
     margin: 0;
     border: 0;
-    box-sizing: 0;
+    box-sizing: border-box;
 }
 
 a{
@@ -13,11 +13,50 @@ a{
 }
 
 body{
-    background-color: #ccc;
+    background-color: #cfcccc;
 }
 
 .wrapper{
     max-width: 960px;
     margin: 0 auto;
-    background-color: #fff;
+    background-color: #faeeee;
+}
+
+
+.screen{
+    width: 100%;
+    height: 100vh;
+}
+
+.screen1{
+    background-color: #3c596c;
+}
+
+.screen2{
+    background: rgb(29,133,130);
+background: radial-gradient(circle, rgba(29,133,130,1) 13%, rgba(8,65,74,1) 87%);
+}
+
+.screen3{
+    background-image: url("ava7patterns_pattern_1663\ \(1\).png");
+    /* background-repeat: no-repeat; */
+}
+
+.screen4{
+    background-image: url(https://loremflickr.com/320/240);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.screen5{
+    background-image: url(https://loremflickr.com/g/600/480/paris/);
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.screen6{
+    background-image: url(https://loremflickr.com/320/240/dog);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
 }
